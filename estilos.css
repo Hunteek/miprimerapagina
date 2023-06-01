@@ -161,3 +161,20 @@ footer {
 .greeating {
   text-align: center;
 }
+
+ul {
+  color: #333; 
+  list-style-type: disc; 
+  margin-left: 20px; 
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:before {
+  content: "\2022"; 
+  color: #ffffff; 
+  margin-right: 5px; 
+  font-weight: bold; 
+}
